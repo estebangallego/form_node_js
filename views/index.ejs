@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1>Hello world!</h1>
+	<form method="post" action="/result">
+		Your name: <input type="text" name="name"><br />
+		Dojo location: 
+		<select name="location">
+			<option>Mountain View</option>
+			<option>Los Angeles</option>
+			<option>New York</option>
+		</select> <br />
+		Favorite language: 
+		<select name="language">
+			<option>PHP</option>
+			<option>Java-script</option>
+			<option>Ruby on Rails</option>
+		</select><br />
+		<textarea name="comments"></textarea><br />
+		<input type="hidden" name="send" value="survey">
+		<button type="submit">Submit</button>
+	</form>
+</body>
+</html>
